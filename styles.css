@@ -1,0 +1,136 @@
+@font-face {
+    font-family: "upheavtt";
+    src: url(fonts/upheavtt.ttf);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #4a148c, #d5006d);
+    font-family: Arial, sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/bg1.webp);
+    background-position: center;
+}
+
+.header-img {
+    margin-bottom: 1px;
+    display: none;
+}
+/* button1 */
+.button-h {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    align-items: center;
+}
+
+.button-h img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.guidetxt {
+    position: absolute;
+    font-family: "upheavtt";
+    flex-direction: column;
+    justify-content: center;
+    bottom: 0;
+}
+.guidetxt h1 {
+    font-size: 60px;
+    color: rgb(29, 28, 27);
+}
+.buttonhover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.buttonhover:hover {
+    opacity: 1;
+}
+/* button2 */
+.button-h2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    align-items: center;
+}
+
+.button-h2 img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.Gametxt {
+    position: absolute;
+    font-family: "upheavtt";
+    flex-direction: column;
+    justify-content: center;
+    bottom: 0;
+}
+.Gametxt h1 {
+    font-size: 60px;
+    color: rgb(29, 28, 27);
+}
+
+.buttonhover2 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.buttonhover2:hover {
+    opacity: 1;
+}
+
+
+/* button3 */
+.button-h3 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    align-items: center;
+}
+
+.button-h3 img {
+    width: 100%;
+    height: 100%;
+
+
+}
+
+.Gametxt {
+    position: absolute;
+    font-family: "upheavtt";
+    flex-direction: column;
+    justify-content: center;
+    bottom: 0;
+}
+.Gametxt h3 {
+    font-size: 60px;
+    color: rgb(29, 28, 27);
+}
+
+.buttonhover3 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+.buttonhover3:hover {
+    opacity: 1;
+}
