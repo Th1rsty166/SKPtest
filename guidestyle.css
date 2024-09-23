@@ -3,29 +3,81 @@
 body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to bottom right, #4a148c, #d5006d);
     font-family: Arial, sans-serif;
-    color: white;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     background-image: url(img/bg1.webp);
     background-position: center;
+    
+}
+
+.header01 {
+    /* blur effect */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    /* ----------------------------------------------- */
+    margin-top: 20px;
+    padding: 20px;
 }
 
 .introduction-head {
-    background-color: #444d4b;
+    /* blur effect */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    /* ----------------------------------------------- */
     margin-bottom: 10px;
+    margin-top: 30px;
     align-items: center;
     align-content: center;
+    padding: 20px;
 
 }
 .img01  {
-    background-color: blue;
+    /* background-color: blue; */
     align-items: center;
     align-content: center;
     position: relative;
 
+}
+.img01 img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.introduction-combined-classes {
+    /* blur effect */
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    /* ----------------------------------------------- */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+
+}
+.img02 img {
+    width: 100%;
+    border-radius: 20px;
+    border:2px solid black;
+}
+.img03 img {
+    width: 100%;
+    border-radius: 20px;
+    border:2px solid black;
 }
