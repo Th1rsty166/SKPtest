@@ -1,0 +1,31 @@
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #4a148c, #d5006d);
+    font-family: Arial, sans-serif;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(img/bg1.webp);
+    background-position: center;
+}
+
+.introduction-head {
+    background-color: #444d4b;
+    margin-bottom: 10px;
+    align-items: center;
+    align-content: center;
+
+}
+.img01  {
+    background-color: blue;
+    align-items: center;
+    align-content: center;
+    position: relative;
+
+}
